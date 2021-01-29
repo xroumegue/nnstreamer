@@ -200,6 +200,7 @@ if get_option('install-test')
   install_subdir('nnstreamer_converter', install_dir: unittest_tests_install_dir)
   install_subdir('nnstreamer_merge', install_dir: unittest_tests_install_dir)
   install_subdir('nnstreamer_decoder', install_dir: unittest_tests_install_dir)
+  install_subdir('nnstreamer_decoder_boundingbox', install_dir: unittest_tests_install_dir)
   install_subdir('nnstreamer_demux', install_dir: unittest_tests_install_dir)
   install_subdir('nnstreamer_filter_custom', install_dir: unittest_tests_install_dir)
   if tflite_support_is_available
